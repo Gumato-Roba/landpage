@@ -24,7 +24,6 @@
     background-color: rgb(199, 235, 223);
 }
 .container{
-    /* height: 100vh; */
     background-color:rgb(199, 235, 223);
     background-position: fixed;
 }
@@ -49,15 +48,9 @@ nav  ul li{
     list-style: none;
     margin: 0px 20px;
     outline: none;
-
-}
-nav ul li a{
-    text-decoration: none;
-    color: #603e23;
-    margin-left: 90px;
 }
 .btn{
-    background-color: #6e6ead;
+    background-color: #00A3AC;
     padding: 17px;
     margin-top: 18px;
     margin-left: 7%;
@@ -73,11 +66,19 @@ nav ul li a{
 }
 .section2{
     display: flex;
-    margin-left: 2%;
-    margin-top: 4%;
+    margin-left: 8%;
+    margin-top: 10%;
 }
 .section2 p{
-    margin-left: 50px;
+    margin-left: 30%;
+    /* margin-top: 8%; */
+}
+.content i{
+    background-color: antiquewhite;
+    border-radius: 20%;
+    margin-right: 8%;
+    padding: 1.4%;
+    /* margin-left: 5%; */
 }
 
 .content h1{
@@ -96,14 +97,19 @@ nav ul li a{
 
 }
 .page{
+    margin-left: 8%;
     display: flex;
     margin-top: 4%;
 
 }
+.page p{
+    margin-left: 30%;
+}
 .page1{
+
     background-color: azure;
     font-size: small;
-    margin-left: 2%;
+    margin-left: 8%;
     margin-top: 2%;
     padding: 4%;
 }
@@ -113,11 +119,12 @@ nav ul li a{
     margin-top: 2%;
     padding: 4%;
     margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 2%;
 }
 .page2 cont2{
     border-radius: 50%;
 }
+
 .content p{
     font-size: 20px;
     color: #232d60;
@@ -125,12 +132,12 @@ nav ul li a{
 }
 .container1{
     background-color: rgb(221, 238, 247);
-    height: 100vh;
+    /* height: 120vh; */
     margin-top: 5%
 }
 .concept{
     display: flex;
-    margin-top: 5%;
+    margin-top: 2%;
     /* justify-content: center; */
     /* margin-left: 10%; */
 }
@@ -140,22 +147,31 @@ nav ul li a{
     background-color: white;
     height:35vh;
     width: 2850px;
+    padding:2% ;
+    margin-top: 5%;
 
 }
 .line2{
-    margin-left: 20%;
+    margin-left: 10%;
     /* margin-right: 4%; */
     background-color: white;
     height:35vh;
-     width:2800px;
+    width:2800px;
+    padding: 2%;
+    margin-top: 5%;
+
+
 
 }
 .line3{
-    margin-right: 5%;
-      margin-left: 20%;
+    margin-left: 5%;
+      margin-left: 10%;
     background-color: white;
     height:35vh;
-     width:2800px;
+    width:2800px;
+    padding: 2%;
+    margin-top: 5%;
+
 }
 
 .concept2{
@@ -166,79 +182,111 @@ nav ul li a{
     margin-left: 6%;
     background-color: white;
     height:35vh;
+    padding: 2%;
 }
 .line5{
     margin-left: 5%;
     background-color: white;
     height:35vh;
+    padding: 2%;
 }
 .line6{
     margin-left: 10%;
-    margin-right: 5%;
+    margin-left: 5%;
     background-color: white;
     height:35vh;
+    padding: 2%;
 }
  .container2{
      display: flex;
-     margin-top: 10%;
+     margin-top: 5%;
  }
 
 .cont-5{
     margin-left: 10%;
+    border-radius: 50%;
 }
 .words{
-    /* float: right; */
-    margin-right: 10%;
-    margin-left: 20%;
-    /* margin-bottom: 50%; */
- 
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-left: 5%;
 
 }
-.container3{
-    display: flex;
-    margin-top: 10%;
-    /* background-color: rgb(235, 237, 245); */
-    
+.words button{
+    margin-top: 20%;
+    margin-left: 100%;
+    margin-left: 30%;
+    padding-right: 20%;
+    padding-left: 5%;
+    background-color: #00A3AC;
+    /* color: bisque; */
+    /* border border-radius: ; */
 }
+.container3{
+    padding: 10%;
+    display: inline-flex;
+    /* margin-top: 2%; */
+    margin-left: -5%;
+    height: 60vh;
+   /* background-color: rgb(235, 237, 245); */
+}
+.pic{
+    padding: 5%;
+    margin-left: 2%;
+}
+.imag{
+    padding: 5%;
+    margin-left: 5%;
+}
+.photo{
+    padding: 5%;
+}
+
  .contheader{
     display: flex;
-    margin-left: 20px; 
+    margin-left: 8%; 
     text-align: center;
     margin-top: 5%;
 
 
-}
-.photo{
-    margin-top: 50px;
-    border-radius: 4px;
-    padding: 5px;
-    width: 300px;
-    margin-left: 8%;
-    margin-right: 100px;
- 
-}
-.pic{
-    margin-top: 50px;
-    border-radius: 4px;
-    padding: 5px;
-    width: 300px;
-    margin-left: 100px;
-}
-.imag{
-    margin-top: 50px;
-    border-radius: 4px;
-    padding: 5px;
-    width: 300px;
-    margin-left: 50px;
-
-}
+}                            
 .container4{
-    background-color: rgb(220, 238, 238);
-    height: 50vh;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 50px;
+    padding: 80px;
+    padding-right: 90px;
+    background-color:rgb(193, 247, 239);
+    align-content: center;
+    font-size: 25px;
+    width: 700px;
+    /* height: 200px; */
+    margin-bottom: 100px;
+    margin-left: 14%;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 10px;
 }
+.email{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 30px;
+    background-color: rgb(245, 252, 252);
+    text-align: left;
+   font-family: sans-serif;
+   }
+   .email button{
+   padding: 28px;
+   background-color: rgb(99, 190, 190);
+   border-radius: 10px; 
+   border: none;  
+   margin-left: 300px;
+   }
+   .email input{
+       padding: 15px;
+       color: white;
+       background-color:white;
+       border-radius: 70px; 
+       border: none;  
+   }
+
 .head{
     text-align: center;
     display: flex;
@@ -256,44 +304,34 @@ input{
 }
 .btns{
     background-color: #4747ec;
-    border: none;
-    height: 30px;
-
+    border-radius: 10%;
 }
-.wrapper{
-    margin-top: 50%;
-    background-color: #fff;
-    height: 33px;
-    border: 3px solid #000;
-} 
-.text-box{
+
+ .text-box{
     background-color: #6e6ead;
-    border-radius: 100px;
-    padding: 40px;
-    color:crimson;
-    box-shadow: 3px 8px 22px ;
+    border-radius: 10px;
+    padding: 1% 1% 1% 1%;
     margin-left: 700px;
-    margin-right: 250px; 
+    margin-left: 25%; 
+    width: 10%;
 
-}
+} 
 .footer{
     display: flex;
-    text-decoration-color: rgb(82, 82, 109);
+    text-decoration-color: #232d60;
+    margin-left: 10%;
 
 }
 .list1{
-    margin-left: 80px;
-    margin-bottom: 150px;
+    margin-left: 8%;
+
 }
 .list2{
-    margin-left: 120px;
-    margin-bottom: 50px;
+    margin-left: 12%;
 }
 .list3{
-    margin-left: 100px;
-    margin-bottom: 50px;
+    margin-left: 10%;
 }
 .list4{
-    margin-left: 120px;
-    margin-bottom: 50px;
+    margin-left: 12%;
 }
